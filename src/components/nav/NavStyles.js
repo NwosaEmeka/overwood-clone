@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
-export const NavBarContainer = styled.div`
+export const NavBarContainer = styled.header`
   width:100%;
   height:3.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 0 ${props => props.theme.pd_xl};
   color: ${props => props.theme.links_clr};
 
   @media (max-width: 62em){

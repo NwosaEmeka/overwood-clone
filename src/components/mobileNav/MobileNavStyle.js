@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 
-export const MobileNavContainer = styled.div`
+export const MobileNavContainer = styled.header`
   width: 100%;
   height:auto;
   background-color: ${props => props.theme.links_clr};

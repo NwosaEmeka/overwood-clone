@@ -1,12 +1,14 @@
 import styled from "styled-components"
 import {Link} from "react-router-dom"
 
-export const HeroWrapper = styled.div`
+export const HeroWrapper = styled.section`
   display: flex;
+  padding: 0 ${props => props.theme.pd_xl};
   padding-top: 10rem;
   min-height: 100vh;
 
   @media (max-width: 37em){
+    padding: 0 ${props => props.theme.pd_sm};
     padding-top: 6rem;
   }
 `

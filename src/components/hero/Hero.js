@@ -12,7 +12,7 @@ import {
 function Hero() {
   return (
     <>
-    <HeroWrapper>
+    <HeroWrapper id="hero">
       <HeroContent>
         <HeroPara colored>Earn 8 - 12% per annum</HeroPara>
         <HeroHeader>

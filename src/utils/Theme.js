@@ -6,6 +6,7 @@ export const light = {
     pry_text_clr: "#2525252",
     text_clr: "#4ba5fa",
     sec_text_clr: "#8950FC",
-    dark: "#333"
-    
+    dark: "#333",
+    pd_xl: "6.5rem",
+    pd_sm: "1.1rem"
 }

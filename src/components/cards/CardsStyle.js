@@ -5,7 +5,7 @@ export const Card = styled.div`
   padding: 1.5rem;
   margin:0.8rem;
   background-color: #fff;
-  border: 1px solid rgba(0,0,0,0.1);
+  border: 1px solid rgba(0,0,0,0.12);
   transition: all 0.4s ease;
 
   &:hover{
@@ -19,7 +19,7 @@ export const CardHeader = styled.h3`
 `
 export const CardText = styled.p`
   font-weight:500;
-  font-size:0.8rem;
+  font-size:0.9rem;
 `
 export const CardLink = styled(Link)`
 
