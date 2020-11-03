@@ -6,7 +6,8 @@ import {
   ShowcaseHeader,
   ShowcaseTitle,
   ShowcaseText,
-  Signature
+  Signature,
+  Name,
 } from './ShowcaseStyle'
 
 
@@ -27,7 +28,8 @@ function Showcase() {
           We want to do it with integrity and a deep commitment that our client will never lose a dime of their hard-earned money.
         </ShowcaseText>
         <Signature>
-          hello
+          <Name>Mr. Nwosa Emeka </Name>
+          <ShowcaseText position>Founder & CEO</ShowcaseText>
         </Signature>
       </ShowcaseContent>
     </ShowcaseContainer>

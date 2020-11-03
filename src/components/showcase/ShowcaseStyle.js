@@ -37,10 +37,13 @@ export const ShowcaseTitle = styled.h2`
   margin: 1rem 0 1.5rem;
 `
 export const ShowcaseText = styled.p`
-  margin: 1.2rem 0;
+  margin: ${props => props.position? "0" :"1.2rem" } 0;
   font-weight:600;
   font-size:0.85rem;
 `
 export const Signature = styled.div`
   margin: 7rem 1rem 1rem;
+`
+export const Name = styled.h2`
+  font-size: 1.2rem;
 `

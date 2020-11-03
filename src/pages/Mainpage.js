@@ -1,5 +1,6 @@
 import React from 'react'
 import HeaderCards from '../components/cards/HeaderCards'
+import Credentials from '../components/credentialsSection/Credentials'
 import Hero from '../components/hero/Hero'
 import MobileNav from '../components/mobileNav/MobileNav'
 import Navbar from '../components/nav/Navbar'
@@ -13,7 +14,8 @@ function Mainpage() {
         <Navbar />
         <Hero />
         <HeaderCards />
-        <Showcase />
+      <Showcase />
+      <Credentials />
     </div>
   )
 }
