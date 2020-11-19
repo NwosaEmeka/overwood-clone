@@ -3,6 +3,7 @@ import {Link} from "react-router-dom"
 
 export const HeroWrapper = styled.section`
   display: flex;
+  background-color: ${props => props.theme.bg_clr};
   padding: 0 ${props => props.theme.pd_xl};
   padding-top: 10rem;
   min-height: 100vh;
